@@ -1,0 +1,157 @@
+:root {
+    --accent-color: #6ACC67;
+    --accent-color-highlight: #D5ED85;
+
+    --black: #100a1a;
+    --white: #fff3dc;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#site {
+    min-width: 1500px;
+}
+
+#contents {
+    border-left: 5px solid var(--accent-color);
+
+    padding-left: 20px;
+
+    position: fixed;
+}
+
+li {
+    list-style-type: none;
+    
+    margin-left: -20px;
+
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+.page {
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border: 3px solid var(--white);
+    text-align: center;
+    width: 1000px;
+}
+
+h1 {
+    font-weight: 900;
+    font-style: normal;
+    font-size: xxx-large;
+
+    padding-top: 20px;
+    border-bottom: var(--accent-color) solid 2px;
+    margin: auto;
+}
+
+#header {
+    width: 220px;
+}
+
+#header-main {
+    width: 350px;
+    padding-bottom: 5px;
+}
+
+#header-other {
+    width: 300px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    border-left: var(--accent-color) solid 2px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 50px;
+    padding-left: 10px;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+a:hover {
+    color: var(--accent-color-highlight)
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: larger;
+}
+
+.paragraph {
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+.qnav-separator {
+    border: 1px darkslategray solid;
+    margin-left: 10px;
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+#luna-eclipse-container {
+    top: 40%;
+    width: 100%;
+    position: fixed;
+    min-width: 1500px;
+}
+
+#luna, #eclipse {
+    width: 10%; 
+    position: fixed;
+}
+
+#luna {
+    left: 5%;
+    display: block;
+}
+
+#eclipse {
+    left: 85%;
+}
+
+.art {
+    max-width: 300px;
+    min-width: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.art-3 {
+    max-width: 250px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.grid-text-3 {
+    width: 33%;
+}
+
+.grid-container {
+    display: grid;
+    margin: 50px;
+}
+
+.grid-item {
+    margin-left: 20px;
+}
+
+.grid-2 {
+    grid-column-start: 2;
+}
