@@ -1,0 +1,233 @@
+:root {
+    --accent-color: #6ACC67;
+    --accent-color-highlight: #D5ED85;
+
+    --black: #100a1a;
+    --white: #fff3dc;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#site {
+    min-width: 1500px;
+}
+
+.page {
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border: 3px solid var(--white);
+    text-align: center;
+    
+    width: 750px;
+}
+
+h1 {
+    font-weight: 900;
+    font-style: normal;
+    font-size: xxx-large;
+
+    padding-top: 20px;
+    border-bottom: var(--accent-color) solid 2px;
+    margin: auto;
+}
+
+#header {
+    width: 150px;
+}
+
+#header-main {
+    width: 350px;
+    padding-bottom: 5px;
+}
+
+#header-other {
+    width: 300px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    border-left: var(--accent-color) solid 2px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 50px;
+    padding-left: 10px;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+a:hover {
+    color: var(--accent-color-highlight)
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: larger;
+}
+
+.paragraph {
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+#luna-eclipse-container {
+    top: 30%;
+    width: 100%;
+    position: fixed;
+    min-width: 1500px;
+}
+
+#luna, #eclipse {
+    width: 10%; 
+    position: fixed;
+}
+
+#luna {
+    left: 5%;
+    display: block;
+}
+
+#eclipse {
+    left: 85%;
+}
+
+#main {
+    margin-top: 5%;
+}
+
+.separator {
+    border: 1px darkslategray solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+.button-container {
+    width: 60%;
+    
+    margin: auto;
+}
+
+
+.split-button-container {
+    display: grid;
+    grid-template-columns: 49.5% 1% 49.5%;
+    column-count: 3;
+}
+
+.social-button {
+    background-color: #6ACC6722;
+    width: 100%;
+    
+    padding: 15px 0;
+
+    align-items: center;
+
+    margin-top: 5px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    display: inline-flex;
+    justify-content: center;
+}
+
+.social-button-lesser {
+    background-color: #6ACC6722;
+    font-size: medium;
+    width: 100%;
+    
+    padding: 5px 0;
+
+    align-items: center;
+
+    margin-top: 5px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    display: inline-flex;
+    justify-content: left;
+}
+
+.social-button:hover, .social-button-lesser:hover {
+    background-color: #6ACC6755;
+}
+
+.button-disabled, .button-disabled:hover {
+    background-color: #6ACC6711;
+    color: gray;
+}
+
+.button-disabled:hover i {
+    color: gray;
+}
+
+.split-button {
+    border-radius: 5px 2px 2px 5px;
+    width: 100%;
+}
+
+.split-button-2 {
+    grid-column-start: 3;
+    border-radius: 2px 5px 5px 2px;
+}
+
+.button-icon {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.button-icon-lesser {
+    width: 30px;
+    margin-left: 15px;
+}
+
+#bsky-icon {
+    width: 30px;
+}
+
+.link-text {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.social-button-lesser .link-text {
+    margin-left: 15px
+}
+
+a i {
+    color: gray;
+    font-size: small;
+}
+
+a:hover i {
+    color: white;
+}
+
+.small-button {
+    font-size: small;
+    background-color: #6ACC6711;
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.small-button:hover {
+    background-color: #6ACC6722;
+}
