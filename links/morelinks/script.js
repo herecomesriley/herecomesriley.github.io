@@ -1,26 +1,26 @@
 showhide()
 
 function showhide() {
-    const luna = document.getElementById('luna');
-    const eclipse = document.getElementById('eclipse');
+    //const luna = document.getElementById('luna');
+    //const eclipse = document.getElementById('eclipse');
     
     if(window.innerWidth <= 1270) {
-        luna.style.display = 'none';
-        eclipse.style.display = 'none';
+        //luna.style.display = 'none';
+        //eclipse.style.display = 'none';
 
         // document.getElementById('contents').style.display = 'none';
 
         pageflex(true)
     } else if(window.innerWidth < 1500) {
-        luna.style.display = 'block';
-        eclipse.style.display = 'none';
+        //luna.style.display = 'block';
+        //eclipse.style.display = 'none';
 
         // document.getElementById('contents').style.display = 'block';
 
         pageflex(false)
     } else {
-        luna.style.display = 'block';
-        eclipse.style.display = 'block';
+        //luna.style.display = 'block';
+        //eclipse.style.display = 'block';
 
         // document.getElementById('contents').style.display = 'block';
 
